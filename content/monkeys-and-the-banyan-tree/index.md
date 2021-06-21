@@ -2,12 +2,12 @@
 template = "post.html"
 slug = "monkeys-and-the-banyan-tree"
 title = "Monkeys and the Banyan Tree"
+date = "2021-04-13T09:00:00+05:30"
+updated = "2021-04-13T09:00:00+05:30"
 [extra]
 author = "Karthik D"
 author_dp = "/assets/dp2.png"
 cover = "/monkeys-and-the-banyan-tree/cover.jpg"
-published_date = "2021-04-13T09:00:00+05:30"
-modified_date = "2021-04-13T09:00:00+05:30"
 display_date = "13 April, 2021"
 +++
 On the west outskirts of Bengaluru, lives a 400 year old Banyan Tree called "Dodda Alada Mara", now noted for its ancientness and housed in a neatly fenced and maintained park. While not a great destination for an outing,  it was a very suitable pitstop for our Sunday morning cycling trip. Well, actually it was supposed to be the destination, until Vikram decided to extend the trip further down the road like he always does. 

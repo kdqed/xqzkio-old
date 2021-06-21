@@ -2,12 +2,12 @@
 template = "post.html"
 title = "Zen and the Art of Guitar Repair - An inquiry into Jugaad"
 slug = "zen-and-guitar-repair"
+date = "2021-04-19T09:00:00+05:30"
+updated = "2021-04-19T09:00:00+05:30"
 [extra]
 author = "Karthik D"
 author_dp = "/assets/dp2.png"
 cover = "/zen-and-guitar-repair/cover.jpg"
-published_date = "2021-04-19T09:00:00+05:30"
-modified_date = "2021-04-19T09:00:00+05:30"
 display_date = "19 April, 2021"
 +++
 > TL; DR: I nailed it

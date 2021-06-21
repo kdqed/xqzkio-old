@@ -2,12 +2,12 @@
 template = "post.html"
 title = "Loading a large json file into elixir's ETS (Erlang Term Storage) Cache using Jaxon"
 slug = "how-to-load-a-large-json-file-into-elixir-ets-cache"
+date = "2021-04-13T09:00:00+05:30"
+updated = "2021-04-13T09:00:00+05:30"
 [extra]
 author = "Karthik D"
 author_dp = "/assets/dp2.png"
 cover = "/assets/code.jpg"
-published_date = "2021-04-13T09:00:00+05:30"
-modified_date = "2021-04-13T09:00:00+05:30"
 display_date = "13 April, 2021"
 +++
 Elixir's ETS cache is an in-memory data store that can be accessed across processes. It can be used to build lookup tables such as geocoders, translators etc. in web applications.

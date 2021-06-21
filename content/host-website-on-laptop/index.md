@@ -2,12 +2,12 @@
 template = "post.html"
 slug = "host-website-on-laptop"
 title = "Hosting a website / webserver on your PC / Laptop using Reverse SSH Tunnel on a custom domain name"
+date = "2021-04-20T09:00:00+05:30"
+updated = "2021-04-20T09:00:00+05:30"
 [extra]
 author = "Karthik D"
 author_dp = "/assets/dp2.png"
 cover = "/assets/code.jpg"
-published_date = "2021-04-20T09:00:00+05:30"
-modified_date = "2021-04-20T09:00:00+05:30"
 display_date = "20 April, 2021"
 +++
 

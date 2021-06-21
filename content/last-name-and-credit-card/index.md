@@ -2,12 +2,12 @@
 template = "post.html"
 title = "Dear \"international\" companies, stop asking me for my last name and credit card"
 slug = "last-name-and-credit-card"
+date = "2021-05-10T19:00:00+05:30"
+updated = "2021-05-10T19:00:00+05:30"
 [extra]
 author = "Karthik D"
 author_dp = "/assets/dp2.png"
 cover = "/last-name-and-credit-card/cover.png"
-published_date = "2021-05-10T19:00:00+05:30"
-modified_date = "2021-05-10T19:00:00+05:30"
 display_date = "10 May, 2021"
 +++
 

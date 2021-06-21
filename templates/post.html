@@ -2,19 +2,19 @@
 <html lang="en" amp>
 <head>
   <meta charset="utf-8">
-  <title>{{ section.title }}</title>
+  <title>{{ page.title }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#020203">
-  <meta name="description" content="Posted by @kdnanmaga">
+  <meta name="description" content="Posted by @1upkd">
   
-  <meta property="og:title" content="{{section.title}}" />
+  <meta property="og:title" content="{{page.title}}" />
   <meta property="og:url" content="{{current_url | safe}}" />
   <meta property="og:description" content="Posted by @kdnanmaga">
-  <meta property="og:image" content="{{section.extra.cover | safe}}">
+  <meta property="og:image" content="{{page.extra.cover | safe}}">
   <meta property="og:type" content="website" />
   
   <meta name="twitter:card" content="app"></meta>
-  <meta property="twitter:image" content="{{section.extra.cover | safe}}">
+  <meta property="twitter:image" content="{{page.extra.cover | safe}}">
   
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
@@ -68,7 +68,7 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: url({{section.extra.cover | safe }});
+      background: url({{page.extra.cover | safe }});
       background-size: cover;
       background-position: center top;
     }
@@ -203,15 +203,15 @@
         "@type": "WebPage",
         "@id": "{{current_url | safe}}"
       },
-      "headline": "{{section.title}}",
+      "headline": "{{page.title}}",
       "image": [
-        "https://1upkd.com/{{section.extra.cover | safe}}"
+        "https://1upkd.com/{{page.extra.cover | safe}}"
       ],
-      "datePublished": "{{section.extra.published_date}}",
-      "dateModified": "{{section.extra.modified_date}}",
+      "datePublished": "{{page.date}}",
+      "dateModified": "{{page.updated}}",
       "author": {
         "@type": "Person",
-        "name": "{{section.extra.author}}"
+        "name": "{{page.extra.author}}"
       },
       "publisher": {
         "@type": "Organization",
@@ -236,17 +236,19 @@
 <main>
   <section class="cover">
     <div class="single-row title">
-      <h1>{{section.title}}</h1>
+      <h1>{{page.title}}</h1>
       <p>
-        <amp-img layout="fixed" height="64" width="64" src="{{section.extra.author_dp}}"></amp-img>
-        <b>{{section.extra.author}}</b>  
-        <span>{{section.extra.display_date}}</span>
+        <amp-img layout="fixed" height="64" width="64" src="{{page.extra.author_dp}}"></amp-img>
+        <b>{{page.extra.author}}</b>  
+        <span>
+          {{page.day}}/{{page.month}}/{{page.year}}
+        </span>
       </p>
     </div>
   </section>
   <section class="opaque">
     <div class="single-row md">
-      {{section.content | markdown | safe}}
+      {{page.content | markdown | safe}}
     </div>
   </section>
 </main>

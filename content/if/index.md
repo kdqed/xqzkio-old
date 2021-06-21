@@ -2,12 +2,12 @@
 template = "post.html"
 title = "Reflections on 'If'"
 slug = "if"
+date = "2021-06-05T09:00:00+05:30"
+updated = "2021-06-05T09:00:00+05:30"
 [extra]
 author = "Karthik D"
 author_dp = "/assets/dp2.png"
 cover = "/if/cover.png"
-published_date = "2021-06-05T09:00:00+05:30"
-modified_date = "2021-06-05T09:00:00+05:30"
 display_date = "5 June, 2021"
 +++
 Have you ever felt like you were force fed pieces of literature in school? You had to analyze, memorize and answer about stories and poems that were so unrelatable and obscure, and once you grew up and looked back at those literature pieces with the perspective of having seen more of the world, they actually made sense. I have felt this with several pieces of literature from Kannada as well as English. 
