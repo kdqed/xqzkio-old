@@ -1,4 +1,4 @@
-# 1upkd / Karthik D
+Karthik D
 Remote freelance full-stack developer
 
 ## Stacks
